@@ -1,0 +1,47 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+Recordings/
+
+# Builds
+[Bb]uild/
+[Bb]uilds/
+
+# IDE/editor
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temp/crash
+sysinfo.txt
+*.tmp
+*.bak
+*.swp
+*.orig
+
+# Gate Zero local huge skybox cubemaps (kept locally, not required for repo edits)
+Assets/Real Stars Skybox/StarSkybox04/CubemapStars.cubemap
+Assets/Real Stars Skybox/StarSkybox04Named/CubemapStarsNamed.cubemap
+Assets/Real Stars Skybox/StarSkybox04NamedConstell/CubemapStarsNamedConstellations.cubemap
