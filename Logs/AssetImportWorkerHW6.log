@@ -1,0 +1,817 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.9f1 (b57deb96f08d) revision 11894251'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-dario" at "2026-09-06T10:38:14.1188958Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'it' Physical Memory: 31938 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-09-06T10:38:14Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW6
+-projectPath
+C:/Users/dario/GATE_ZERO
+-logFile
+Logs/AssetImportWorkerHW6.log
+-srvPort
+56542
+-parentPid
+16372
+-analyticsCloudUserId
+6872075399360
+-analyticsCloudProjectId
+0b45e260-ec79-40b7-9c32-e4586106e730
+-analyticsLocalProjectId
+e0af403eceb3d384b830aac09eb0bf87
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+78209a4bc4a2f87dc82912a887d906e1be653470
+-cbmMachineId
+1mBKM/KRRn+wrjIQ7P5n4qeVsdw=
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Users/dario/GATE_ZERO
+C:/Users/dario/GATE_ZERO
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [6212]  Target information:
+
+Player connection [6212]  * "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 236546713 [EditorId] 236546713 [Version] 1048832 [Id] WindowsEditor(7,Dario) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [6212] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [6212] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.25 ms, found 4 plugins.
+Initialize engine version: 6000.5.9f1 (b57deb96f08d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/dario/GATE_ZERO/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        AMD Radeon RX 9070 XT (ID=0x7550)
+    Vendor:          ATI
+    VRAM:            16188 MB
+    App VRAM Budget: 15416 MB
+    Driver:          32.0.31041.1004
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.3'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-dario"
+[Licensing::IpcConnector] LicenseClient-dario channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-dario-6000.5.9" at "2026-09-06T10:38:14.8242148Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 9012, path: "C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              06306c15f7db448594c1ec6f5e71738c
+  Correlation Id:          818e62087df7de29a4031d3f09536224
+  External correlation Id: 7651451992540769928
+  Machine Id:              1mBKM/KRRn+wrjIQ7P5n4qeVsdw=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-dario-6000.5.9" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-dario-6000.5.9-notifications" at "2026-09-06T10:38:14.8284889Z"
+[Licensing::Module] Licensing Background thread has ended after 0.71s
+[Licensing::Module] Licensing is initialized (took 0.19s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 6872075399360-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.194930 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.284 seconds
+Domain Reload Profiling: 792ms
+	BeginReloadAssembly (71ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (231ms)
+	LoadAllAssembliesAndSetupDomain (192ms)
+		LoadAssemblies (69ms)
+		AnalyzeDomain (144ms)
+			TypeCache.Refresh (142ms)
+				TypeCache.ScanAssembly (133ms)
+	FinalizeReload (285ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (55ms)
+			ProcessInitializeOnLoadMethodAttributes (125ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.441 seconds
+Domain Reload Profiling: 939ms
+	BeginReloadAssembly (112ms)
+		DisableScriptedObjects (6ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (338ms)
+		LoadAssemblies (175ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (108ms)
+				TypeCache.ScanAssembly (99ms)
+			BuildScriptInfoCaches (38ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (442ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (169ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (3ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Curl error 3: URL rejected: Malformed input to a URL function
+Unloading 6636 unused Assets / (5.0 MB). Loaded Objects now: 7612.
+Memory consumption went from 345.0 MB to 340.0 MB.
+Total: 5.957700 ms (FindLiveObjects: 0.536500 ms CreateObjectMapping: 0.969500 ms MarkObjects: 3.012700 ms  DeleteObjects: 1.437400 ms)
+
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:46:43.7420819Z
+  Time since last request: 929927.07266139995772 seconds.
+  importAddress: GUID: 281ddd71b990ce9449efecec53925061 - Path: Assets/Real Stars Skybox/StarSkybox04NamedConstell/StarSkybox04NamedConstell.mat - Importer: PreviewImporter
+Importing 'GUID: 281ddd71b990ce9449efecec53925061 - Path: Assets/Real Stars Skybox/StarSkybox04NamedConstell/StarSkybox04NamedConstell.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 281ddd71b990ce9449efecec53925061' -> (Import Result ID: '34531676d7c145ff4b48d36b0204289a') in 0.464 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cb7e1b2c7fab39bd786978312a846705 DependenciesID=a6db2e6268584340813f253983c657eb StaticDependenciesID=258265e481d8c4cdcf00a83960e1102a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:46:53.0939604Z
+  Time since last request: 8.873162 seconds.
+  importAddress: GUID: 7910c4de4f114e343a611b5cdfb7b8d8 - Path: Assets/Synty/PolygonSciFiCity/Materials/Alts/PolygonScifi_04_F.mat - Importer: PreviewImporter
+Importing 'GUID: 7910c4de4f114e343a611b5cdfb7b8d8 - Path: Assets/Synty/PolygonSciFiCity/Materials/Alts/PolygonScifi_04_F.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 7910c4de4f114e343a611b5cdfb7b8d8' -> (Import Result ID: '186fc105ab598b48341775a3a912217a') in 0.033 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e24af836c7a1c56db8fa56aa8746784e DependenciesID=e16e4fbf9f6e985bfc7e609c38b6d12e StaticDependenciesID=ba1c1791820f22325d56dd9053b62a31 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:46:53.1374862Z
+  Time since last request: 0.0000178 seconds.
+  importAddress: GUID: e43e0848fad28db439d9411118a7fc32 - Path: Assets/Synty/PolygonSciFiCity/Materials/Alts/PolygonScifi_04_D.mat - Importer: PreviewImporter
+Importing 'GUID: e43e0848fad28db439d9411118a7fc32 - Path: Assets/Synty/PolygonSciFiCity/Materials/Alts/PolygonScifi_04_D.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: e43e0848fad28db439d9411118a7fc32' -> (Import Result ID: '03d05aefe9232ebbb337f53c6a8525e5') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bd8fe05216b495ce3371b6bab78030aa DependenciesID=2f5c13cc7a1ef0b46478e2e0db81e1f1 StaticDependenciesID=c18edf6b5654a6447fdb7f952c8a80c6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:46:53.1668606Z
+  Time since last request: 0.0000152 seconds.
+  importAddress: GUID: 129704b08c93bae4a89513e33c890d5e - Path: Assets/Synty/PolygonSciFiCity/Materials/Alts/PolygonScifi_04_A.mat - Importer: PreviewImporter
+Importing 'GUID: 129704b08c93bae4a89513e33c890d5e - Path: Assets/Synty/PolygonSciFiCity/Materials/Alts/PolygonScifi_04_A.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 129704b08c93bae4a89513e33c890d5e' -> (Import Result ID: 'b58005a26088f28b8d067bf814c6220e') in 0.031 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=990f4c8cacd32e91bf2073ddd2572109 DependenciesID=dcde6db06cbf3896b53995518a20b121 StaticDependenciesID=dfc2d17f5c2a644790af88f6c1f77c82 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:46:53.365763Z
+  Time since last request: 0.1575867 seconds.
+  importAddress: GUID: 86c886b27b55b4c4aaece649eea0a079 - Path: Assets/Synty/PolygonSciFiCity/Materials/Alts/PolygonScifi_03_F.mat - Importer: PreviewImporter
+Importing 'GUID: 86c886b27b55b4c4aaece649eea0a079 - Path: Assets/Synty/PolygonSciFiCity/Materials/Alts/PolygonScifi_03_F.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 86c886b27b55b4c4aaece649eea0a079' -> (Import Result ID: 'ca41f062e12a91244676c229ed2dc9b1') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8cf921847f5942224953a679c5aa130c DependenciesID=f744016941bcfe7bf7dbf527e9c1df6e StaticDependenciesID=a3ffc05c3596032d6e184e58438aed56 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:46:53.4148312Z
+  Time since last request: 0.0158545 seconds.
+  importAddress: GUID: 08ba515e3c063a64bbec69a2c933acd7 - Path: Assets/Synty/PolygonSciFiCity/Materials/Alts/PolygonScifi_03_D.mat - Importer: PreviewImporter
+Importing 'GUID: 08ba515e3c063a64bbec69a2c933acd7 - Path: Assets/Synty/PolygonSciFiCity/Materials/Alts/PolygonScifi_03_D.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 08ba515e3c063a64bbec69a2c933acd7' -> (Import Result ID: '4e64675199a948629c3aa23680c96190') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1195f71240fe80e305086ee842c65370 DependenciesID=c5d84cfa9c1e48cbf594b32b1684b510 StaticDependenciesID=6fa15a5c56ea46f0b9f2b3237cc7cc02 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:46:53.4452106Z
+  Time since last request: 0.000019 seconds.
+  importAddress: GUID: d29677146096e2e44a5d0dc42b09e592 - Path: Assets/Synty/PolygonSciFiCity/Materials/Alts/PolygonScifi_03_A.mat - Importer: PreviewImporter
+Importing 'GUID: d29677146096e2e44a5d0dc42b09e592 - Path: Assets/Synty/PolygonSciFiCity/Materials/Alts/PolygonScifi_03_A.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d29677146096e2e44a5d0dc42b09e592' -> (Import Result ID: 'f38745e85b4c6e4bd39a5fc6b541ffed') in 0.024 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5da73fe5a95b3b58650c1b399ab83fc7 DependenciesID=e2b2b933e0bbbc69f8f64159c5ca5d5a StaticDependenciesID=bf41e0c86c649dd0216afc190f7919d0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:46:53.4798352Z
+  Time since last request: 0.0000181 seconds.
+  importAddress: GUID: 225e7340f239c124c9bfac44ef8dbda2 - Path: Assets/Synty/PolygonSciFiCity/Materials/Alts/PolygonScifi_02_F.mat - Importer: PreviewImporter
+Importing 'GUID: 225e7340f239c124c9bfac44ef8dbda2 - Path: Assets/Synty/PolygonSciFiCity/Materials/Alts/PolygonScifi_02_F.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 225e7340f239c124c9bfac44ef8dbda2' -> (Import Result ID: '31f6461806a8b9ff681b820d69bea2e5') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5ccfafcd8fd873a74980af5d19c9bcc0 DependenciesID=ef69cade496154f27fa698aad62d884e StaticDependenciesID=d635c88ae4277d926a212eea4bb87412 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:46:53.6455288Z
+  Time since last request: 0.1330625 seconds.
+  importAddress: GUID: f0dd791a13593c24092eab330b4af2a1 - Path: Assets/Synty/PolygonSciFiCity/Materials/Alts/PolygonScifi_02_D.mat - Importer: PreviewImporter
+Importing 'GUID: f0dd791a13593c24092eab330b4af2a1 - Path: Assets/Synty/PolygonSciFiCity/Materials/Alts/PolygonScifi_02_D.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f0dd791a13593c24092eab330b4af2a1' -> (Import Result ID: 'd4104de4da4bed2f459f722d68f0bae3') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ea7c4d1620fc53aeb67bbf0822fb64bb DependenciesID=6c474d44b63535fcb7dd35384d2e6f89 StaticDependenciesID=78cebe57edbd97a66561301c7b392b37 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:46:53.6939881Z
+  Time since last request: 0.0166592 seconds.
+  importAddress: GUID: a1260db7eb4efe7478246fda2858823d - Path: Assets/Synty/PolygonSciFiCity/Materials/Alts/PolygonScifi_02_B.mat - Importer: PreviewImporter
+Importing 'GUID: a1260db7eb4efe7478246fda2858823d - Path: Assets/Synty/PolygonSciFiCity/Materials/Alts/PolygonScifi_02_B.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a1260db7eb4efe7478246fda2858823d' -> (Import Result ID: 'a5b2e2354c293a3fdf547dcce421832e') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9d3850a9287ce21993833fec15a34ed4 DependenciesID=bcd076f1ebdddf455cb1a287c18487ce StaticDependenciesID=50ebc6989fd86863ae1c68074fb795f7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:46:53.7306645Z
+  Time since last request: 0.0040304 seconds.
+  importAddress: GUID: d8ff1947f6875f94998cfbbd28f2b751 - Path: Assets/Synty/PolygonSciFiCity/Materials/Alts/PolygonScifi_01_F.mat - Importer: PreviewImporter
+Importing 'GUID: d8ff1947f6875f94998cfbbd28f2b751 - Path: Assets/Synty/PolygonSciFiCity/Materials/Alts/PolygonScifi_01_F.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d8ff1947f6875f94998cfbbd28f2b751' -> (Import Result ID: 'c6b59e8cfb35831bd6d43d474cb9a952') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=96dfe9643ec4dde1748b51c35802d0ea DependenciesID=58823fc75421b31f6904d48e8606af56 StaticDependenciesID=8e17a214486949ea3b74f11c5d175c52 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.489 seconds
+Domain Reload Profiling: 918ms
+	BeginReloadAssembly (161ms)
+		DisableScriptedObjects (14ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (6ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (215ms)
+		LoadAssemblies (192ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (489ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (161ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (3ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6632 unused Assets / (5.0 MB). Loaded Objects now: 7723.
+Memory consumption went from 354.9 MB to 349.9 MB.
+Total: 6.711400 ms (FindLiveObjects: 0.557800 ms CreateObjectMapping: 0.991300 ms MarkObjects: 3.167100 ms  DeleteObjects: 1.994200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 7723.
+Memory consumption went from 353.8 MB to 351.2 MB.
+Total: 4.151900 ms (FindLiveObjects: 0.313300 ms CreateObjectMapping: 0.420500 ms MarkObjects: 3.122100 ms  DeleteObjects: 0.295400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:51:57.6274763Z
+  Time since last request: 303.8661659 seconds.
+  importAddress: GUID: 2c51ed4e970740543bbbefd591f8cb2f - Path: Assets/Synty/PolygonSciFiCity/Prefabs/FX/FX_Blackhole_01.prefab - Importer: PreviewImporter
+Importing 'GUID: 2c51ed4e970740543bbbefd591f8cb2f - Path: Assets/Synty/PolygonSciFiCity/Prefabs/FX/FX_Blackhole_01.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2c51ed4e970740543bbbefd591f8cb2f' -> (Import Result ID: '78723bc4155cb0a12aa2b364de2ef8cb') in 0.357 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a8c90047627238e11bf3497248f17bb6 DependenciesID=626a180c6eefe6513f49b721f7f945c2 StaticDependenciesID=ffb7589c5f0ff11562b54aa3d0c7256b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:51:57.9958767Z
+  Time since last request: 0.0000228 seconds.
+  importAddress: GUID: c2fad3760a0f8674482ad6a980264ee4 - Path: Assets/Synty/PolygonSciFiCity/Prefabs/Buildings/SM_Bld_Background_Med_03.prefab - Importer: PreviewImporter
+Importing 'GUID: c2fad3760a0f8674482ad6a980264ee4 - Path: Assets/Synty/PolygonSciFiCity/Prefabs/Buildings/SM_Bld_Background_Med_03.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c2fad3760a0f8674482ad6a980264ee4' -> (Import Result ID: '85ed0b726306baea34441e8c86b94dad') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2ab4c4a65c1af056b06c298480d255b5 DependenciesID=ea76607bc72ae4a119cef8d88f263628 StaticDependenciesID=759ec45df32d60d21d5ae6f1e1b7225d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:51:58.021173Z
+  Time since last request: 0.0003383 seconds.
+  importAddress: GUID: defb4cdc6208f004795f0160e8fb04ed - Path: Assets/Synty/PolygonGeneric/Prefabs/Base/SM_Bld_Base_Ceiling_01.prefab - Importer: PreviewImporter
+Importing 'GUID: defb4cdc6208f004795f0160e8fb04ed - Path: Assets/Synty/PolygonGeneric/Prefabs/Base/SM_Bld_Base_Ceiling_01.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: defb4cdc6208f004795f0160e8fb04ed' -> (Import Result ID: '28b9419b6483cbd71f155385ce3b9ca8') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fad723b886c7eee5ef0315bed0cb5286 DependenciesID=763eda5e0244bfef0441aecd63753885 StaticDependenciesID=6fb8d579423fa0ca6b1e77189366e40a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:51:58.0444373Z
+  Time since last request: 0.0002014 seconds.
+  importAddress: GUID: 2b4f4c6dd9003ab49ac2cb68ebc4a3b4 - Path: Assets/Synty/PolygonSciFiCity/Prefabs/Buildings/SM_Bld_Background_Med_04.prefab - Importer: PreviewImporter
+Importing 'GUID: 2b4f4c6dd9003ab49ac2cb68ebc4a3b4 - Path: Assets/Synty/PolygonSciFiCity/Prefabs/Buildings/SM_Bld_Background_Med_04.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2b4f4c6dd9003ab49ac2cb68ebc4a3b4' -> (Import Result ID: '4ecfc391b39d2be212f3dc7d2aec00dd') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aa7b24eae693a1b3171919c1bc0c1ef6 DependenciesID=b7c95f0377c62e1cf264d03d43e1d9e1 StaticDependenciesID=ef63353b5520d5126681f7027843885b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:51:58.06453Z
+  Time since last request: 0.0002044 seconds.
+  importAddress: GUID: 346d59f0a37939843934a260b13f9d2e - Path: Assets/Synty/PolygonSciFiCity/Prefabs/Buildings/SM_Bld_Background_Small_02.prefab - Importer: PreviewImporter
+Importing 'GUID: 346d59f0a37939843934a260b13f9d2e - Path: Assets/Synty/PolygonSciFiCity/Prefabs/Buildings/SM_Bld_Background_Small_02.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 346d59f0a37939843934a260b13f9d2e' -> (Import Result ID: '269ff3fd212258281a155146b1a4af84') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=97df838ce3f51b80a99ca185bf0fcccd DependenciesID=31bed4b571c5e19c275717c8aa2150f1 StaticDependenciesID=cf17c702e85e4b03a205cade52909efa 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:51:58.0845774Z
+  Time since last request: 0.0000587 seconds.
+  importAddress: GUID: 1337ff3f0ba67b743a229bd87105578f - Path: Assets/Synty/PolygonSciFiCity/Prefabs/Buildings/SM_Bld_Background_Small_01.prefab - Importer: PreviewImporter
+Importing 'GUID: 1337ff3f0ba67b743a229bd87105578f - Path: Assets/Synty/PolygonSciFiCity/Prefabs/Buildings/SM_Bld_Background_Small_01.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 1337ff3f0ba67b743a229bd87105578f' -> (Import Result ID: '7259dfced37f20ebf59277fb9f116c92') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ed3961f19daaa33e27e8d5ecf764a54e DependenciesID=0297ed4c0b3bb54bdc1c3eab5a5a3604 StaticDependenciesID=46fde713edf95a99244555530fcdfb43 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:51:58.1049745Z
+  Time since last request: 0.0001864 seconds.
+  importAddress: GUID: d4f5977cf1e74e30ad117322f9cd379d - Path: Assets/Synty/PolygonGeneric/Prefabs/FX/FX_Fire_Card_Large_01.prefab - Importer: PreviewImporter
+Importing 'GUID: d4f5977cf1e74e30ad117322f9cd379d - Path: Assets/Synty/PolygonGeneric/Prefabs/FX/FX_Fire_Card_Large_01.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d4f5977cf1e74e30ad117322f9cd379d' -> (Import Result ID: '7d23327f895f579d45551fd6b08a1ce2') in 0.145 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4b615e3e966d564e2b0cda1d003a7c13 DependenciesID=cd0d8b7caca3efc42673e1d408e10673 StaticDependenciesID=64a9ed204e5e85b192d896bf69be103b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:51:58.2632985Z
+  Time since last request: 0.0001318 seconds.
+  importAddress: GUID: 4539a9f265debe14db54385bf22e5389 - Path: Assets/Synty/PolygonSciFiCity/Prefabs/Buildings/SM_Bld_Advanced_01.prefab - Importer: PreviewImporter
+Importing 'GUID: 4539a9f265debe14db54385bf22e5389 - Path: Assets/Synty/PolygonSciFiCity/Prefabs/Buildings/SM_Bld_Advanced_01.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4539a9f265debe14db54385bf22e5389' -> (Import Result ID: '2c63eb655f7f808f13304141a659c930') in 0.023 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5243a1cf99a86f9af664320be7a4f6cc DependenciesID=ec962a2cd089a37200a499e7c3e5c988 StaticDependenciesID=6be44ebd8a8994af525ab694ce55c964 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:51:58.299442Z
+  Time since last request: 0.0000155 seconds.
+  importAddress: GUID: 2974555caa7a6704eb8f549d99367f35 - Path: Assets/Synty/PolygonSciFiCity/Prefabs/FX/FX_Electricity_01.prefab - Importer: PreviewImporter
+Importing 'GUID: 2974555caa7a6704eb8f549d99367f35 - Path: Assets/Synty/PolygonSciFiCity/Prefabs/FX/FX_Electricity_01.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2974555caa7a6704eb8f549d99367f35' -> (Import Result ID: 'c77d2a30832961072450dbe0fef74d47') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=381c4e529a2d8df9a20baa71dd80cea4 DependenciesID=30f453e50d3311ed0378eeb189a4e908 StaticDependenciesID=dbd49dd074b3e5b7abbd02c8cce31ffb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:51:58.3200889Z
+  Time since last request: 0.0001287 seconds.
+  importAddress: GUID: f0274b246cd36f849b6f60898f359f1e - Path: Assets/Synty/PolygonSciFiCity/Prefabs/Buildings/SM_Bld_Bank_01.prefab - Importer: PreviewImporter
+Importing 'GUID: f0274b246cd36f849b6f60898f359f1e - Path: Assets/Synty/PolygonSciFiCity/Prefabs/Buildings/SM_Bld_Bank_01.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f0274b246cd36f849b6f60898f359f1e' -> (Import Result ID: '940baff8a802c72667fe4e3287e832f6') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eae62ff42ad2dbe1829ef79884fa7eeb DependenciesID=3a3f1c877fb2fd079c18191fd2ab4862 StaticDependenciesID=8ede75205ac9ca19c33490833b28680d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:51:58.3518561Z
+  Time since last request: 0.0000181 seconds.
+  importAddress: GUID: 049ba413acf1dae40a25c7020b124049 - Path: Assets/Synty/PolygonSciFiCity/Prefabs/Buildings/SM_Bld_Background_Med_09.prefab - Importer: PreviewImporter
+Importing 'GUID: 049ba413acf1dae40a25c7020b124049 - Path: Assets/Synty/PolygonSciFiCity/Prefabs/Buildings/SM_Bld_Background_Med_09.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 049ba413acf1dae40a25c7020b124049' -> (Import Result ID: '3ada818c2db5ffc4b1b49339778ec433') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a89f2a4d30a88d6164e882f3c3654a9a DependenciesID=d1794232202032ce38cfaf845ee56ea1 StaticDependenciesID=0345e0a71ba3622a81a31d458d9aeeb1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:51:58.3731297Z
+  Time since last request: 0.0004821 seconds.
+  importAddress: GUID: 94634f97a9c7b83498a8e59c7c8f115b - Path: Assets/Synty/PolygonSciFiCity/Prefabs/Buildings/SM_Bld_Background_Med_08.prefab - Importer: PreviewImporter
+Importing 'GUID: 94634f97a9c7b83498a8e59c7c8f115b - Path: Assets/Synty/PolygonSciFiCity/Prefabs/Buildings/SM_Bld_Background_Med_08.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 94634f97a9c7b83498a8e59c7c8f115b' -> (Import Result ID: '90a4970ba19aa838434fc5f440426eea') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3b25ec55998960c00feff477af912b64 DependenciesID=7d0981e859a12fa68854a42117b5e534 StaticDependenciesID=11fe63837804b38f9384c46eb4b2cbc3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:51:58.3932714Z
+  Time since last request: 0.000146 seconds.
+  importAddress: GUID: 6301baffa72b44d98036ef53bb31ef6a - Path: Assets/Synty/PolygonGeneric/Prefabs/FX/FX_Snow_01.prefab - Importer: PreviewImporter
+Importing 'GUID: 6301baffa72b44d98036ef53bb31ef6a - Path: Assets/Synty/PolygonGeneric/Prefabs/FX/FX_Snow_01.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6301baffa72b44d98036ef53bb31ef6a' -> (Import Result ID: '59ee847384c9dd2281ca723b544f93ff') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b7d60ad39066546927b10bfa7d739075 DependenciesID=9948111b829848afed602babf15d6d1d StaticDependenciesID=440835a210d85f78469aa13f1fdedfd8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:51:58.4127814Z
+  Time since last request: 0.0001111 seconds.
+  importAddress: GUID: 003a0812f47da2743890a75d5a35c6f4 - Path: Assets/Synty/PolygonSciFiCity/Prefabs/Environments/SkyDome.prefab - Importer: PreviewImporter
+Importing 'GUID: 003a0812f47da2743890a75d5a35c6f4 - Path: Assets/Synty/PolygonSciFiCity/Prefabs/Environments/SkyDome.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 003a0812f47da2743890a75d5a35c6f4' -> (Import Result ID: '3b39853bc21ae9ced521ecd6f466d68c') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=abf2938b93b2941e26ca1c4f1bd193c2 DependenciesID=772564d70c1b2670d044753533e0befb StaticDependenciesID=d09ffd0859b1be196f7f1fd0de359ab3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:51:58.4315904Z
+  Time since last request: 0.0001865 seconds.
+  importAddress: GUID: 5235aea0360d71341aefdd10bcc70627 - Path: Assets/Synty/PolygonSciFiCity/Prefabs/FX/FX_Rain_01.prefab - Importer: PreviewImporter
+Importing 'GUID: 5235aea0360d71341aefdd10bcc70627 - Path: Assets/Synty/PolygonSciFiCity/Prefabs/FX/FX_Rain_01.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5235aea0360d71341aefdd10bcc70627' -> (Import Result ID: 'c8d945995da6d4ad2526128b23ff0b8f') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=08363fe13423e502f55319d20d91a806 DependenciesID=21c95d56e9e316ff8cb69e33dfa9554c StaticDependenciesID=db5e5d1afd1e74d8ab0673f5bd904cef 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:51:58.4505186Z
+  Time since last request: 0.0000725 seconds.
+  importAddress: GUID: 141de425b875475f98c35e49d1b2e24e - Path: Assets/Synty/PolygonGeneric/Prefabs/FX/FX_Waterfall_Foam_01.prefab - Importer: PreviewImporter
+Importing 'GUID: 141de425b875475f98c35e49d1b2e24e - Path: Assets/Synty/PolygonGeneric/Prefabs/FX/FX_Waterfall_Foam_01.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 141de425b875475f98c35e49d1b2e24e' -> (Import Result ID: '7dc2f9bdababbe957124711fd4ba64f7') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41d30b04e98fbcc30518871f1635bd0c DependenciesID=8794e9cfe771fe8026fda87c04e9600f StaticDependenciesID=174ea12f1bb85bfe8857ee105985a1ad 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:51:58.4690919Z
+  Time since last request: 0.0001215 seconds.
+  importAddress: GUID: c55cddf0517aed545bedf9b927124c15 - Path: Assets/Synty/PolygonSciFiCity/Prefabs/Buildings/SM_Bld_Background_Med_06.prefab - Importer: PreviewImporter
+Importing 'GUID: c55cddf0517aed545bedf9b927124c15 - Path: Assets/Synty/PolygonSciFiCity/Prefabs/Buildings/SM_Bld_Background_Med_06.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c55cddf0517aed545bedf9b927124c15' -> (Import Result ID: '4430eb9a68f678a26f1985585e205bce') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=28d452024384c86bd7da057e9725e5f8 DependenciesID=7e9849bfab740d4d1c3bb2bcc77364d3 StaticDependenciesID=ca03358751c701c82281382035418e2e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:51:58.4865645Z
+  Time since last request: 0.0001757 seconds.
+  importAddress: GUID: 63d73a393cd24ed49457e8e6cb023220 - Path: Assets/Synty/PolygonGeneric/Prefabs/FX/FX_SunBeam_01.prefab - Importer: PreviewImporter
+Importing 'GUID: 63d73a393cd24ed49457e8e6cb023220 - Path: Assets/Synty/PolygonGeneric/Prefabs/FX/FX_SunBeam_01.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 63d73a393cd24ed49457e8e6cb023220' -> (Import Result ID: '07519ab08cd7fd438ce307e521e534ea') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a3d2486f625be198ac8c3aab9f1f0f95 DependenciesID=61f20b8711294400dee74d0c85e65420 StaticDependenciesID=a995222b1a5fd7976656e6e235ad2df4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:51:58.5063619Z
+  Time since last request: 0.0000976 seconds.
+  importAddress: GUID: 3580e0e183f48d64ca0e21e66b6e1020 - Path: Assets/Synty/PolygonGeneric/Prefabs/FX/FX_Candle_Flame_01.prefab - Importer: PreviewImporter
+Importing 'GUID: 3580e0e183f48d64ca0e21e66b6e1020 - Path: Assets/Synty/PolygonGeneric/Prefabs/FX/FX_Candle_Flame_01.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3580e0e183f48d64ca0e21e66b6e1020' -> (Import Result ID: 'd988c8fe6aa7d02637c80fcdaaa3b075') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2b4e94d6f590882ca8f4d128da97325f DependenciesID=dd87aadaa1ca2c6a31505acf508952d9 StaticDependenciesID=1dbba9dce8661db3b62deb66a41a3c70 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:51:58.5280278Z
+  Time since last request: 0.0001557 seconds.
+  importAddress: GUID: d7786caaf9ad4b44988ff1c5ac5c10c0 - Path: Assets/Synty/PolygonSciFiCity/Prefabs/FX/FX_Exhaust_Trail_01.prefab - Importer: PreviewImporter
+Importing 'GUID: d7786caaf9ad4b44988ff1c5ac5c10c0 - Path: Assets/Synty/PolygonSciFiCity/Prefabs/FX/FX_Exhaust_Trail_01.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d7786caaf9ad4b44988ff1c5ac5c10c0' -> (Import Result ID: 'eac6e0c4bc51f1772415c04609c94941') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c38fa5ad130f532536c2a9daaea52d81 DependenciesID=a07e054b90e7ebdb38566601f3022de4 StaticDependenciesID=00ed67163fd558c6179fedd96484b72d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:51:58.5487154Z
+  Time since last request: 0.0001289 seconds.
+  importAddress: GUID: 57ab80b865c24e5fa1de6a0734c04dd5 - Path: Assets/Synty/PolygonGeneric/Prefabs/FX/FX_Fire_Card_01.prefab - Importer: PreviewImporter
+Importing 'GUID: 57ab80b865c24e5fa1de6a0734c04dd5 - Path: Assets/Synty/PolygonGeneric/Prefabs/FX/FX_Fire_Card_01.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 57ab80b865c24e5fa1de6a0734c04dd5' -> (Import Result ID: '27d1706cc87b3b85d806187d7f4f87d7') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=72b770f7ab8d815469510070030be634 DependenciesID=4124513e16be276649f9429dabd0786b StaticDependenciesID=3fe1a88e6c59854ee24a9e8d7d3986de 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:51:58.5738318Z
+  Time since last request: 0.0001236 seconds.
+  importAddress: GUID: c5d84bb5cd4148b78a9c805f51d3f6ea - Path: Assets/Synty/PolygonGeneric/Prefabs/FX/FX_Smoke_01.prefab - Importer: PreviewImporter
+Importing 'GUID: c5d84bb5cd4148b78a9c805f51d3f6ea - Path: Assets/Synty/PolygonGeneric/Prefabs/FX/FX_Smoke_01.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c5d84bb5cd4148b78a9c805f51d3f6ea' -> (Import Result ID: 'a79c9500c1f69eea637b964c9adf320e') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2d450d5deab783e504bc7730975b2a27 DependenciesID=2b8af60804767c5e948c386384827180 StaticDependenciesID=9d6d7fc9206f3545a0a00baef44f02dd 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:51:58.5949395Z
+  Time since last request: 0.0000932 seconds.
+  importAddress: GUID: e4f2100db3206f446a46fc9b56578423 - Path: Assets/Synty/PolygonGeneric/Prefabs/Base/SM_Bld_Base_45_Wall_Door_01.prefab - Importer: PreviewImporter
+Importing 'GUID: e4f2100db3206f446a46fc9b56578423 - Path: Assets/Synty/PolygonGeneric/Prefabs/Base/SM_Bld_Base_45_Wall_Door_01.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: e4f2100db3206f446a46fc9b56578423' -> (Import Result ID: '245d9fba48397ef9d5214cc7d426851a') in 1.364 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=218db312fb407d7fba5931e26c40ede2 DependenciesID=3e5d4d66b88f636549e601d2ad960495 StaticDependenciesID=ac631f0d646b4bbedc920496aa1950b3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:51:59.9737738Z
+  Time since last request: 0.0000214 seconds.
+  importAddress: GUID: b5b28bfa5c3fef44caaac12b6aca9ec4 - Path: Assets/Synty/PolygonSciFiCity/Prefabs/FX/FX_Laser_Bullet_01.prefab - Importer: PreviewImporter
+Importing 'GUID: b5b28bfa5c3fef44caaac12b6aca9ec4 - Path: Assets/Synty/PolygonSciFiCity/Prefabs/FX/FX_Laser_Bullet_01.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b5b28bfa5c3fef44caaac12b6aca9ec4' -> (Import Result ID: '40076af06ea68825e2c494e66ccefa50') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f2b74a53debb75b9b4e74a4b44ffda91 DependenciesID=6df0f16f67719a71fb486ae2b043c73f StaticDependenciesID=bb7326f4c42b7723cdff2a9e35e56bb8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:51:59.9964443Z
+  Time since last request: 0.000153 seconds.
+  importAddress: GUID: 8b8cbe4ed4b4d04429ed1911d6725815 - Path: Assets/Synty/PolygonSciFiCity/Prefabs/FX/FX_Smoke_Small_Light_01.prefab - Importer: PreviewImporter
+Importing 'GUID: 8b8cbe4ed4b4d04429ed1911d6725815 - Path: Assets/Synty/PolygonSciFiCity/Prefabs/FX/FX_Smoke_Small_Light_01.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8b8cbe4ed4b4d04429ed1911d6725815' -> (Import Result ID: '1b00b7905a9aecfb96e29049fc5e82b5') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4b929734e58c70e0b7f76ae135458881 DependenciesID=4529f218f9551346e186817110dfec51 StaticDependenciesID=efddaafd475908f31430f1a88658d8a5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:52:00.0151024Z
+  Time since last request: 0.0001921 seconds.
+  importAddress: GUID: 8ad4c6a0a99ada5458178e9156b85b0e - Path: Assets/Synty/PolygonSciFiCity/Prefabs/Buildings/SM_Bld_Background_Lrg_03.prefab - Importer: PreviewImporter
+Importing 'GUID: 8ad4c6a0a99ada5458178e9156b85b0e - Path: Assets/Synty/PolygonSciFiCity/Prefabs/Buildings/SM_Bld_Background_Lrg_03.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8ad4c6a0a99ada5458178e9156b85b0e' -> (Import Result ID: '2ba5c5e2cd7f176520407519f197d13f') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c5f0ed31d66775e571072dd363797d05 DependenciesID=8ce506b3452909209ccd3121bac37d13 StaticDependenciesID=47f5b92ce6c566ffe12b59d9c45f43aa 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:52:00.0361991Z
+  Time since last request: 0.0001714 seconds.
+  importAddress: GUID: 3c37ed3fc4c8659488e2a193810bb213 - Path: Assets/Synty/PolygonSciFiCity/Prefabs/Buildings/SM_Bld_Background_Med_01.prefab - Importer: PreviewImporter
+Importing 'GUID: 3c37ed3fc4c8659488e2a193810bb213 - Path: Assets/Synty/PolygonSciFiCity/Prefabs/Buildings/SM_Bld_Background_Med_01.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3c37ed3fc4c8659488e2a193810bb213' -> (Import Result ID: '840e35faa49b3a682da237d12e22531d') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e852279317c47502d45c3f8ab5b97a81 DependenciesID=17520f2ab46c833bb7c6500a0c21b875 StaticDependenciesID=130ac2f901feca13df2ae57668935a3f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:52:00.0558088Z
+  Time since last request: 0.0001639 seconds.
+  importAddress: GUID: 6964ac59acc20264988796a2902354b9 - Path: Assets/Synty/PolygonSciFiCity/Prefabs/FX/FX_LightRayCube_01.prefab - Importer: PreviewImporter
+Importing 'GUID: 6964ac59acc20264988796a2902354b9 - Path: Assets/Synty/PolygonSciFiCity/Prefabs/FX/FX_LightRayCube_01.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6964ac59acc20264988796a2902354b9' -> (Import Result ID: '561587b868e3b775796fbff7cd1b106f') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a7b4b20efefb94dd804657a28441ba76 DependenciesID=4ad3f7c38f0196c8d2fbd9ddf8ae852f StaticDependenciesID=6a7b429fdf42488c48d745a727ada236 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:52:00.0863111Z
+  Time since last request: 0.0000835 seconds.
+  importAddress: GUID: 4011e98ad166a054eba33d59b5d530d0 - Path: Assets/Synty/PolygonGeneric/Prefabs/FX/FX_Blood_Splatter_01.prefab - Importer: PreviewImporter
+Importing 'GUID: 4011e98ad166a054eba33d59b5d530d0 - Path: Assets/Synty/PolygonGeneric/Prefabs/FX/FX_Blood_Splatter_01.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4011e98ad166a054eba33d59b5d530d0' -> (Import Result ID: '9d8e4e7abc2aae13b3bfac85eeba5aac') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c43658e92657a5763cc26b790eed7454 DependenciesID=aece45a90a5f723363ee8188eade9dbe StaticDependenciesID=0d03bfc96ab118303f63e2e1d1ecb24a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:52:00.1063141Z
+  Time since last request: 0.0001579 seconds.
+  importAddress: GUID: eccddf70dbb7cd243a2f37f4aa5c95d6 - Path: Assets/Synty/PolygonGeneric/Prefabs/Base/SM_Bld_Base_45_Wall_01.prefab - Importer: PreviewImporter
+Importing 'GUID: eccddf70dbb7cd243a2f37f4aa5c95d6 - Path: Assets/Synty/PolygonGeneric/Prefabs/Base/SM_Bld_Base_45_Wall_01.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: eccddf70dbb7cd243a2f37f4aa5c95d6' -> (Import Result ID: '86478cacc6b81a4626bdb7182f8299f0') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=de07cf088cd43c098525dd889944b740 DependenciesID=691e1bdb4342959697a1168bfdd1c131 StaticDependenciesID=d5f7166ae47cb1b2534394d00b2364a6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:52:00.1282714Z
+  Time since last request: 0.0000515 seconds.
+  importAddress: GUID: abc179049a4a01c4d915ed813ac55f1b - Path: Assets/Synty/PolygonGeneric/Prefabs/Base/SM_Bld_Base_45_Floor_01.prefab - Importer: PreviewImporter
+Importing 'GUID: abc179049a4a01c4d915ed813ac55f1b - Path: Assets/Synty/PolygonGeneric/Prefabs/Base/SM_Bld_Base_45_Floor_01.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: abc179049a4a01c4d915ed813ac55f1b' -> (Import Result ID: '847d009e6e825daaee9d3d01fa4b6237') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0a9b2f8523c966916cb5a94e408a4a2d DependenciesID=083ab28026caaaae585dbf7747b36f38 StaticDependenciesID=81c7c8921970d22d93665fad9d94e248 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:52:02.0157077Z
+  Time since last request: 1.8634232 seconds.
+  importAddress: GUID: 6a237171e2346e3458db37eb0f90d42b - Path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/MultiplayerEventSystem@64.png - Importer: PreviewImporter
+Importing 'GUID: 6a237171e2346e3458db37eb0f90d42b - Path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/MultiplayerEventSystem@64.png - Importer: PreviewImporter' with importer (PreviewImporter)
+[Licensing::Client] Successfully resolved entitlement details
+Imported 'GUID: 6a237171e2346e3458db37eb0f90d42b' -> (Import Result ID: '711febb42e17d8c94db0ac5218f3f15c') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cfb8f76ee96fd584dba3ea6ac9ca124c DependenciesID=cc1374b6f306eb24f43115fe8ecdf477 StaticDependenciesID=896969b300e2045d8168e7ab98bb650b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:52:02.0385858Z
+  Time since last request: 0.0003946 seconds.
+  importAddress: GUID: 2664430aff4254d79887d32c3fc1e221 - Path: Packages/com.unity.multiplayer.center/Tests/Runtime/Unity.Multiplayer.Center.Tests.asmdef - Importer: PreviewImporter
+Importing 'GUID: 2664430aff4254d79887d32c3fc1e221 - Path: Packages/com.unity.multiplayer.center/Tests/Runtime/Unity.Multiplayer.Center.Tests.asmdef - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2664430aff4254d79887d32c3fc1e221' -> (Import Result ID: '306c1b722364c23c29ec74b3621d7f78') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=522157e6e13b4d5ddda9158699d02d51 DependenciesID=ad25c51860eddb151d1f1ad0873d7a3d StaticDependenciesID=800afe500810b73ecca37fa0931ef312 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.582 seconds
+Domain Reload Profiling: 1409ms
+	BeginReloadAssembly (308ms)
+		DisableScriptedObjects (45ms)
+		CreateAndSetChildDomain (126ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (456ms)
+		LoadAssemblies (243ms)
+		AnalyzeDomain (181ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (8ms)
+			BuildScriptInfoCaches (159ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (583ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (206ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
+			AfterProcessingInitializeOnLoad (3ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7039 unused Assets / (6.9 MB). Loaded Objects now: 8156.
+Memory consumption went from 377.0 MB to 370.1 MB.
+Total: 9.512800 ms (FindLiveObjects: 0.958800 ms CreateObjectMapping: 1.554100 ms MarkObjects: 4.314200 ms  DeleteObjects: 2.684800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:53:46.146559Z
+  Time since last request: 104.0979112 seconds.
+  importAddress: GUID: 29841e7d5bbfb5b419c9ad16ca8bc4c1 - Path: Assets/Starter Assets/Runtime/ThirdPersonController/Character/Sfx/Player_Footstep_06.wav - Importer: PreviewImporter
+Importing 'GUID: 29841e7d5bbfb5b419c9ad16ca8bc4c1 - Path: Assets/Starter Assets/Runtime/ThirdPersonController/Character/Sfx/Player_Footstep_06.wav - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 29841e7d5bbfb5b419c9ad16ca8bc4c1' -> (Import Result ID: 'd2e0df449669269b8de3f7bcbccfca48') in 0.080 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=82092d822aa770b71662351cf408c3c0 DependenciesID=ad3f5c6d3a6dd6c4cd904f4d20ba9a93 StaticDependenciesID=7b91ead41ceaf7f3c9a2e91e2dba050b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:53:46.2413861Z
+  Time since last request: 0.0000294 seconds.
+  importAddress: GUID: 186de84b3207156479abe98f4958fed0 - Path: Assets/Starter Assets/Runtime/ThirdPersonController/Character/Sfx/Player_Footstep_03.wav - Importer: PreviewImporter
+Importing 'GUID: 186de84b3207156479abe98f4958fed0 - Path: Assets/Starter Assets/Runtime/ThirdPersonController/Character/Sfx/Player_Footstep_03.wav - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 186de84b3207156479abe98f4958fed0' -> (Import Result ID: 'ca890546a1f21a528f8dd065452d2013') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3b610ae97c75ecdd8543fe295393fd6b DependenciesID=ab73d4a00d2d9db3d2e363ac9a052058 StaticDependenciesID=6b93de3f84af178858700ba6a704b29a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:53:46.2600582Z
+  Time since last request: 0.000177 seconds.
+  importAddress: GUID: 9c489a8547f4d9e4387da15a4ff82c81 - Path: Assets/Starter Assets/Runtime/FirstPersonController/Prefabs/PlayerFollowCamera.prefab - Importer: PreviewImporter
+Importing 'GUID: 9c489a8547f4d9e4387da15a4ff82c81 - Path: Assets/Starter Assets/Runtime/FirstPersonController/Prefabs/PlayerFollowCamera.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9c489a8547f4d9e4387da15a4ff82c81' -> (Import Result ID: 'a706ac1e0980432e744a52c19449bdf4') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3b803edf7a86ce08da48a6e7b7057b28 DependenciesID=1886e68c10f2f2bf426b2317385c8fe2 StaticDependenciesID=332e7ad63bacc1329a85625fcbdc2df7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:53:46.2831989Z
+  Time since last request: 0.0000177 seconds.
+  importAddress: GUID: 4419d82f33d36e848b3ed5af4c8da37e - Path: Assets/Starter Assets/Runtime/InputSystem/StarterAssets.inputactions - Importer: PreviewImporter
+Importing 'GUID: 4419d82f33d36e848b3ed5af4c8da37e - Path: Assets/Starter Assets/Runtime/InputSystem/StarterAssets.inputactions - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4419d82f33d36e848b3ed5af4c8da37e' -> (Import Result ID: 'b0d3a31c82098372b167e5014a8605e7') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b1eef8c47fa025e5a68a087a45d9a753 DependenciesID=8771e8e4ba192c138c686cf01795c740 StaticDependenciesID=a2f880cc68d08cc51d16186f48014c2b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:53:46.2973519Z
+  Time since last request: 0.0002364 seconds.
+  importAddress: GUID: 274649b0e221539409070ebf6c18918b - Path: Assets/Starter Assets/Runtime/ThirdPersonController/Character/Sfx/Player_Footstep_09.wav - Importer: PreviewImporter
+Importing 'GUID: 274649b0e221539409070ebf6c18918b - Path: Assets/Starter Assets/Runtime/ThirdPersonController/Character/Sfx/Player_Footstep_09.wav - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 274649b0e221539409070ebf6c18918b' -> (Import Result ID: '0303a3f06bc12e5a214279e7276f0b3a') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0dcffb99b978306a7816ce2ae50d86de DependenciesID=14c8a05d6ca100cda809cfaa47efe40b StaticDependenciesID=c9bac8e1f3cbcea55d1d01946f9bfc5d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:53:46.3164747Z
+  Time since last request: 0.0002089 seconds.
+  importAddress: GUID: 14e8a8d2158bec840b56c54f5266e692 - Path: Assets/Starter Assets/Runtime/ThirdPersonController/Character/Sfx/Player_Footstep_05.wav - Importer: PreviewImporter
+Importing 'GUID: 14e8a8d2158bec840b56c54f5266e692 - Path: Assets/Starter Assets/Runtime/ThirdPersonController/Character/Sfx/Player_Footstep_05.wav - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 14e8a8d2158bec840b56c54f5266e692' -> (Import Result ID: 'c455df94ea76941c51596ecde0ec9830') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3f8766fc16d10f116f1564f0578f66de DependenciesID=cc61051aefef87dfb433cf6302f004e2 StaticDependenciesID=9cf2f82f498a73c91306faaa25db59ac 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:53:46.3350929Z
+  Time since last request: 0.0002183 seconds.
+  importAddress: GUID: 67c8b33e424ccdc4486edf538ab91c5a - Path: Assets/Starter Assets/Runtime/ThirdPersonController/Character/Sfx/Player_Footstep_08.wav - Importer: PreviewImporter
+Importing 'GUID: 67c8b33e424ccdc4486edf538ab91c5a - Path: Assets/Starter Assets/Runtime/ThirdPersonController/Character/Sfx/Player_Footstep_08.wav - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 67c8b33e424ccdc4486edf538ab91c5a' -> (Import Result ID: '663d813a06048497e5ffa02b5b47cb6a') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=35c6469cf53323548680aaf811eb94fb DependenciesID=faff2ddb85a0e19ef712f212fde46a3f StaticDependenciesID=de3c1a7e9dbc5b73d6b72501cdb042b0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:53:46.3549951Z
+  Time since last request: 0.0002527 seconds.
+  importAddress: GUID: dd1af302b8902684d9381de1f2d3a5af - Path: Assets/Starter Assets/Runtime/ThirdPersonController/Character/Sfx/Player_Footstep_07.wav - Importer: PreviewImporter
+Importing 'GUID: dd1af302b8902684d9381de1f2d3a5af - Path: Assets/Starter Assets/Runtime/ThirdPersonController/Character/Sfx/Player_Footstep_07.wav - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: dd1af302b8902684d9381de1f2d3a5af' -> (Import Result ID: '68d6efd7569f56f33b37d231b49ea5a5') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=202f4bb21c412a059f0a446989d80200 DependenciesID=c1769387f74852370ef96964210b76fb StaticDependenciesID=d53f94bd44e6f8d5bdf7d82bd655df21 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-06T10:53:46.3732136Z
+  Time since last request: 0.0002517 seconds.
+  importAddress: GUID: 2553cec8fdb3eb643bbe9f2ec880c472 - Path: Assets/Starter Assets/Runtime/ThirdPersonController/Prefabs/PlayerCapsule.prefab - Importer: PreviewImporter
+Importing 'GUID: 2553cec8fdb3eb643bbe9f2ec880c472 - Path: Assets/Starter Assets/Runtime/ThirdPersonController/Prefabs/PlayerCapsule.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2553cec8fdb3eb643bbe9f2ec880c472' -> (Import Result ID: 'b1f89e8148ecdd784db2d572a14ea95b') in 1.250 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2b013a492b56726158eccc7cf61d362f DependenciesID=fc85068d7273b3ed2bb2ced64e5e55e4 StaticDependenciesID=649ed247418d2b8da135d12120f53381 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

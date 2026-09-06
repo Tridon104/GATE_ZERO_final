@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1b74df83d88bdb24b86a165644395366
+timeCreated: 1580693351
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 43861639858047284
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 115950
+  packageName: POLYGON - Sci-Fi City Pack - Art by Synty
+  packageVersion: 1.3.3
+  assetPath: Assets/Synty/PolygonSciFiCity/Models/Collision/Convex/SM_Bld_Section_Door_04_Convex.asset
+  uploadId: 976808
